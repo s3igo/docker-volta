@@ -36,3 +36,7 @@ docker run --rm -it s3igo/volta
 ```shell
 cd example && docker compose run --rm --service-ports volta
 ```
+
+## License
+
+[BSD 2-Clause License](LICENSE)
