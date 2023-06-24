@@ -16,10 +16,10 @@ Please refer to the [official guide](https://docs.volta.sh/guide/) for detailed 
 
 ### Additional packages
 
+- curl
 - git
 - git-lfs
 - make
-- curl
 - volta
 
 > **Note**

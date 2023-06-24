@@ -1,7 +1,12 @@
 FROM --platform=linux/amd64 debian:bullseye-slim
 
 # install dependencies
-RUN apt update && apt install -y git git-lfs make curl && rm -rf /var/lib/apt/lists/*
+RUN apt update && apt install -y \
+  curl \
+  git \
+  git-lfs \
+  make \
+  && rm -rf /var/lib/apt/lists/*
 
 # install Volta
 RUN curl https://get.volta.sh | bash
