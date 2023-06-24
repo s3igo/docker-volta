@@ -1,0 +1,13 @@
+services:
+  volta:
+    container_name: node-volta
+    image: s3igo/volta:latest
+    tty: true
+    ports:
+      - 127.0.0.1:3000:3000
+    volumes:
+      - .:/workspace:delegated
+    working_dir: /workspace
+    environment:
+      NODE_ENV: development
+      TERM: xterm-256color
