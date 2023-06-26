@@ -34,7 +34,7 @@ docker run --rm -it s3igo/volta
 ## Example
 
 ```shell
-cd example && docker compose run --rm --service-ports volta
+docker compose -f example/compose.yaml run --rm --service-ports volta
 ```
 
 ## License
