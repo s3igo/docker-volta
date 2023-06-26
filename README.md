@@ -27,6 +27,15 @@ Please refer to the [official guide](https://docs.volta.sh/guide/) for detailed 
 
 ## Usage
 
+Pull image
+
+```shell
+docker pull s3igo/volta
+```
+
+Run container
+
+
 ```shell
 docker run --rm -it s3igo/volta
 ```
