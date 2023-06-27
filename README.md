@@ -1,8 +1,6 @@
 # docker-volta
 
-Docker image for development in Node.js using [Volta](https://volta.sh/), a JavaScript tool manager
-
-Provided image repository: [s3igo/volta](https://hub.docker.com/r/s3igo/volta)
+Dockerfile for development in Node.js using [Volta](https://volta.sh/), a JavaScript tool manager
 
 ## Description
 
@@ -27,14 +25,13 @@ Please refer to the [official guide](https://docs.volta.sh/guide/) for detailed 
 
 ## Usage
 
-Pull image
+Build image
 
 ```shell
-docker pull s3igo/volta
+docker build -t s3igo/volta .
 ```
 
 Run container
-
 
 ```shell
 docker run --rm -it s3igo/volta
