@@ -1,7 +1,9 @@
 services:
   volta:
     container_name: node-volta
-    image: s3igo/volta:latest
+    build:
+      context: .
+      dockerfile: ../Dockerfile
     tty: true
     ports:
       - 127.0.0.1:3000:3000
