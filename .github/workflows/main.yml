@@ -6,6 +6,9 @@ on:
     paths:
       - 'Dockerfile'
       - '.github/workflows/main.yml'
+  repository_dispatch:
+    types:
+      - dotfiles-update
 
 jobs:
   build-and-push:
