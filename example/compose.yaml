@@ -11,5 +11,4 @@ services:
       - ..:/workspace:cached
     working_dir: /workspace
     environment:
-      NODE_ENV: development
-      TERM: xterm-256color
+      - NODE_ENV=development
