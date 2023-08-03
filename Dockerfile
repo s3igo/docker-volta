@@ -13,7 +13,7 @@ RUN curl https://get.volta.sh | bash
 
 # set environment variables
 ENV VOLTA_HOME=/root/.volta
-ENV PATH=$VOLTA_HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ENV PATH=${VOLTA_HOME}/bin:${PATH}
 
 # install dotfiles
 RUN curl -L sh.s3igo.me | bash
